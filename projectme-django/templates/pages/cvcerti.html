@@ -1,0 +1,16 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block content %}
+    <div align="center" class="contain">
+        <div align="left" class="page-heading">
+            <h1>Resume</h1>
+        </div>
+        <a href="{% static 'img/Resume.pdf' %}" download="resume.pdf">Download</a>
+        <br><br><br>
+        <div align="center">
+            <img src="{% static 'img/Resume.png' %}" alt="" width="70%">
+        </div>
+        <br><br><br>
+    </div>
+    <img class="bg-img" src="{% static "img/bg-projects.svg" %}" alt="">
+{% endblock %}

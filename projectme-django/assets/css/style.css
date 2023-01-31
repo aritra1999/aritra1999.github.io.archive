@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Lobster|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+@font-face {
+    font-family: headingfont;
+    src: url('https://aritramondal.herokuapp.com/static/webfonts/cubano-regular-webfont.ttf');
+}
+
+html,
+body {
+    /*font-family: 'Indie Flower', cursive;*/
+    /*font-family: 'Lobster', cursive;*/
+    /*font-family: 'Dosis', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif !important;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: normal;
+    letter-spacing: 0.6px;
+    line-height: 20px;
+    background-color: whitesmoke !important;
+
+}
+
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: headingfont !important;
+    letter-spacing: .4px;
+    font-weight: normal;
+}
+
+hr {
+    border-color: white !important;
+
+}
+
+a {
+    color: inherit !important;
+}
+
+.alert {
+    box-sizing: border-box;
+    background-color: #BDFFE1;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    padding:25px 40px 5px 40px;
+    color: #333;
+}
+
+.alert h2 {
+    font-size: 22px;
+    color: #232323;
+    margin-top: 0;
+}
+
+.alert p {
+    line-height: 1.6em;
+    font-size: 18px;
+}
+
+.alert a {
+    color: #232323;
+    font-weight: bold;
+}
+
+h1 {
+
+    font-weight: 300;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+input,
+textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgba(44, 44, 44, 0.16);
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: .5px;
+    font-size: 15px;
+    min-width: 96%;
+    background: rgba(44, 44, 44, 0.03);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: 4px solid rgb(66, 107, 255);
+    outline: none;
+}
+
+h3 {
+    margin-bottom: 3px !important;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.bg-img {
+    position: fixed;
+    z-index: -999;
+    right: 20px;
+    bottom: 20px;
+    height: 400px;
+}
+
+.shadow {
+    box-shadow: 4px 7px 15px rgba(15, 14, 181, 0.15);
+}
+
+.main {
+    /*position: relative;*/
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.text-body {
+    background: white;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 50px;
+    margin: auto 0;
+    /*word-spacing: 6px;*/
+    letter-spacing: .1px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.contain {
+    margin: 50px 100px;
+}
+
+.page-heading {
+    color: white;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: .4px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.btn-primary {
+    background: #4860ff;
+    color: #fff;
+
+}
+
+.bg {
+    z-index: 0;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    position: fixed;
+    width: 60% !important;
+    margin-left: -10%;
+    margin-top: -20%;
+    height: 200% !important;
+    background: rgb(50, 7, 71) !important;
+    background: linear-gradient(45deg, rgba(50, 7, 71, 1) 0%, rgba(63, 9, 121, 1) 38%, rgba(0, 151, 255, 1) 100%) !important;
+}
+
+.big {
+    display: block !important;
+}
+
+.small {
+    display: none !important;
+}
+
+.svg-wrapper {
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    transform: translateY(-50%);
+    border-radius: 40px;
+    width: 300px;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    top: 50%;
+    left: 50%;
+    margin: 250px 0 0 280px;
+}
+
+.avatar img {
+    background-size: contain;
+    height: 370px;
+    border-radius: 50%;
+    background-position: center top;
+    /*-webkit-filter: grayscale(100%); !* Safari 6.0 - 9.0 *!*/
+    /*filter: grayscale(100%);*/
+    /*filter: sepia(100%) hue-rotate(190deg) saturate(500%);*/
+}
+
+.shape {
+    fill: transparent;
+    stroke-dasharray: 170 540;
+    stroke-dashoffset: -425;
+    stroke-width: 8px;
+    stroke: rgb(58, 90, 255);
+}
+
+.wrapper-text {
+    color: rgb(58, 90, 255);
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 32px;
+    position: relative;
+    top: -87%;
+}
+
+.wrapper-text:hover {
+    color: rgba(63, 9, 121, 1);
+    text-decoration: none;
+}
+
+.contact-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact-legend {
+    margin: auto;
+    width: 20px;
+}
+
+@keyframes draw {
+    0% {
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+
+    }
+
+    100% {
+        stroke-dasharray: 760;
+        stroke-dashoffset: 0;
+        stroke-width: 8px;
+    }
+}
+
+.svg-wrapper:hover .shape {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+}
+
+@media only screen and (max-width: 1200px) {
+    .text {
+        margin-top: 70px;
+    }
+
+    .text-body {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .home {
+        display: block;
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+
+    .big {
+        display: none !important;
+    }
+
+    .small {
+        display: block !important;
+    }
+
+    .bg {
+        height: 60% !important;
+        width: 133% !important;
+        background: rgb(50, 7, 71) !important;
+        background: linear-gradient(-135deg, rgba(50, 7, 71, 1) 0%, rgba(63, 9, 121, 1) 38%, rgba(0, 151, 255, 1) 100%) !important;
+    }
+
+    .bg-img {
+        position: fixed;
+
+        right: 20px;
+        bottom: 20px;
+        height: 200px;
+    }
+
+    .contain {
+        margin: 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .contact-main {
+        display: block;
+    }
+}

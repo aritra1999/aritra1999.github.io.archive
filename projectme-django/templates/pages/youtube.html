@@ -1,0 +1,32 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block content %}
+    <div align="center" class="contain">
+        <div align="left" class="page-heading">
+            <h1>
+                {#                <img src="https://image.flaticon.com/icons/svg/1383/1383260.svg" height="50px">#}
+                Youtube
+
+            </h1>
+        </div>
+        <div class="project">
+            <div class="card-list">
+                {% for video in videos %}
+                    <div class="card shadow card-project" style="padding: 0 !important;">
+
+                        <img src="{{ video.thumbnail_url }}" class="card-img thumbnail" style="height:200px !important;">
+                        <a href="https://www.youtube.com/watch?v={{ video.url }}" target="_blank">
+                            <img src="https://image.flaticon.com/icons/svg/1383/1383260.svg" class="play" height="50px">
+                        </a>
+                        <div class="title">
+
+                            <h2>{{ video.title }}</h2>
+                            <div align="right">{{ video.timestamp.date }}   {{ video.timestamp.time }}</div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <img class="bg-img" src="{% static "img/bg-contact.svg" %}" alt="">
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block content %}
+    <div class="home">
+        <div class="avatar">
+            <img src='{% static "img/me.png" %}' alt="Aritra" class="shadow">
+        </div>
+        <div class="text-body shadow">
+            <h3>Hi, I am Aritra, </h3> <br>
+            I love programming, solving problems and designing efficient solutions. <br>
+            I am a Designer / Backend Developer / DL Researcher / Student.
+
+            <div class="svg-wrapper">
+                <svg height="60" width="300" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="shape" height="60" width="300"/>
+                </svg>
+                <a class="wrapper-text" href="{% url "projects" %}">Browse Projects</a>
+            </div>
+            <br>
+        </div>
+    </div>
+    <img class="bg-img" src="{% static "img/bg-home.svg" %}" alt="">
+{% endblock %}

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hello World</title>
+	<link rel="stylesheet" href="../assets/style.css">
+	<link rel="stylesheet" href="../assets/navbar.css">
+	<link rel="stylesheet" href="../assets/projects.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"rel="stylesheet">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">  
+	<script type="text/javascript">
+		(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+		for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+		MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+		mixpanel.init("2507d1aafd0d7404a0d276ca8d2de58e");
+
+		"use strict";
+		!function() {
+		var t = window.driftt = window.drift = window.driftt || [];
+		if (!t.init) {
+			if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+			t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+			t.factory = function(e) {
+			return function() {
+				var n = Array.prototype.slice.call(arguments);
+				return n.unshift(e), t.push(n), t;
+			};
+			}, t.methods.forEach(function(e) {
+			t[e] = t.factory(e);
+			}), t.load = function(t) {
+			var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+			o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+			var i = document.getElementsByTagName("script")[0];
+			i.parentNode.insertBefore(o, i);
+			};
+		}
+		}();
+		drift.SNIPPET_VERSION = '0.3.1';
+		drift.load('epvaekrwax59');
+	</script>
+</head>
+
+<body>
+	<nav role="navigation">
+		<div id="menuToggle">
+			<input type="checkbox" />
+
+			<span></span>
+			<span></span>
+			<span></span>
+
+			<ul id="menu">
+				<a href="../">
+					<li>Home</li>
+				</a>
+				<a href="/about">
+					<li>About Me</li>
+				</a>
+				<a href="/projects" class="active">
+					<li>Projects & Articles</li>
+				</a>
+				<a href="/resume/Resume.pdf" target="_blank">
+					<li>Resume</li>
+				</a>
+				
+				<ul class="social">
+					<li><a href="https://github.com/aritra1999" class="social-icon"><i class="fab fa-github"></i></a>
+					</li>
+					<li><a href="mailto:1806290@kiit.ac.in" class="social-icon"><i class="fas fa-envelope"></i></a></li>
+					<li><a href="https://twitter.com/aritramondal199" class="social-icon"><i
+								class="fab fa-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com/oreo_411_/" class="social-icon"><i
+								class="fab fa-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/aritra1999/" class="social-icon"><i
+								class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://www.youtube.com/channel/UCaOZb2OH84nCezEt9gnKy-Q" class="social-icon"><i
+								class="fab fa-youtube"></i></a></li>
+				</ul>
+			</ul>
+
+		</div>
+	</nav>
+
+
+
+	<div class="container">
+		<div style="margin: 50px 0;">
+			<span class="page-heading magical-underline">Projects</span>
+		</div>
+		<div class="card-columns">
+			
+			<div class="card">
+				<img src="../assets/img/projects/codevox.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>Codevox</h3>
+					<div class="card-des">
+						A free and collaborative portal for coding assignments help students and teachers to assess coding skills efficiently.
+					</div>
+					<div class="tags">
+						<div class="tag">Python</div>
+						<div class="tag">Django</div>
+						<div class="tag">Lambda Functions</div>
+						<div class="tag">AWS</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<a href="#"></a>
+						<a href="http://codevox.kiit.ac.in" target="_blank" class="card-link-item" download>
+							Live Site
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="../assets/img/projects/justrun.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>JustRun</h3>
+					<div class="card-des">
+						JustRun is an online IDE. Built with django. Simple and easy platform to test your code.
+					</div>
+					<div class="tags">
+						<div class="tag">Django</div>
+						<div class="tag">Python</div>
+						<div class="tag">Lambda Functions</div>
+						<div class="tag">AWS</div>
+						<div class="tag">Online IDE</div>
+						<div class="tag">ACE</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<a href="https://github.com/aritra1999/JustRun/" target="_blank" class="card-link-item">
+							Github
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+						<a href="http://justrun.ml" target="_blank" class="card-link-item" download>
+							Live Site
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<img src="../assets/img/projects/cpide.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>CP-IDE</h3>
+					<div class="card-des">
+						A lightweight, cross-platform code editor built with electron for competitive programmers.
+					</div>
+					<div class="tags">
+						<div class="tag">NodeJS</div>
+						<div class="tag">Electron JS</div>
+						<div class="tag">IDE</div>
+						<div class="tag">Heroku</div>
+						<div class="tag">Competitive Programming</div>
+						<div class="tag">ACE</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<a href="https://bitbucket.org/aritra1999/cpide/src/master/" target="_blank"
+							class="card-link-item">
+							Github
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+						<a href="https://cp-ide.herokuapp.com/" target="_blank" class="card-link-item">
+							Landing Page
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<img src="../assets/img/projects/newtab.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>Newtab</h3>
+					<div class="card-des">
+						NewTab extension for Chrome.
+					</div>
+					<div class="tags">
+						<div class="tag">Chome New Tab</div>
+						<div class="tag">JS</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<a href="https://github.com/aritra1999/NewTab/" target="_blank" class="card-link-item">
+							Github
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+						<a href="https://github.com/aritra1999/NewTab/raw/master/downalod/NewTab.zip"
+							class="card-link-item" download>
+							Download
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<img src="../assets/img/projects/ecomm.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>eComm.</h3>
+					<div class="card-des">
+						eComm is an ecommerce plaēorm for small scale sellers who produce handmade items.
+					</div>
+					<div class="tags">
+						<div class="tag">Django</div>
+						<div class="tag">Python</div>
+						<div class="tag">Ecommerce</div>
+						<div class="tag">Heroku</div>
+						<div class="tag">B2S Service</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<a href="https://github.com/aritra1999/eCommerce" target="_blank" class="card-link-item">
+							Github
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+						<a href="https://ecommdemo.herokuapp.com/" target="_blank" class="card-link-item">
+							Landing Page
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="card">
+				<img src="../assets/img/projects/emailauth.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>Email OTP Auth.</h3>
+					<div class="card-des">
+						Email-OTP-Auth is a email authentication module for django.
+					</div>
+					<div class="tags">
+						<div class="tag">Django</div>
+						<div class="tag">Python</div>
+						<div class="tag">OTP Authentication Module</div>
+						<div class="tag">Heroku</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<a href="https://github.com/aritra1999/EmailAuth" target="_blank" class="card-link-item">
+							Github
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+						<a href="https://aritramondal.herokuapp.com/projects/#" target="_blank" class="card-link-item">
+							Landing Page
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<img src="../assets/img/projects/autoclip.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>Auto Clip</h3>
+					<div class="card-des">
+						Simple python project to clip long raw videos to the desired duration.
+					</div>
+					<div class="tags">
+						<div class="tag">Automation</div>
+						<div class="tag">Python</div>
+						<div class="tag">MoviePy</div>
+						<div class="tag">Video Clipper</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<a href="#" class="card-link-item">
+
+						</a>
+						<a href="https://github.com/aritra1999/AutoClip" target="_blank" class="card-link-item">
+							View Source
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<img src="../assets/img/projects/ano.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>Ano.</h3>
+					<div class="card-des">
+						Ano is platform to send message anonymously to your desired person. Built just for fun.
+					</div>
+					<div class="tags">
+						<div class="tag">Anonymous messaging</div>
+						<div class="tag">Python</div>
+						<div class="tag">Django</div>
+						<div class="tag">Heroku</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<a href="https://github.com/aritra1999/Ano" target="_blank" class="card-link-item">
+							Github
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+						<a href="https://anomessage.herokuapp.com/" target="_blank" class="card-link-item">
+							Live Site
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div style="margin: 50px 0;">
+			<spa class="page-heading magical-underline">Articles</span>
+		</div>	
+		<div class="card-columns">
+			<div class="card">
+				<img src="../assets/img/projects/article1.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>Cross-platform Desktop Apps, using Electron.</h3>
+					<div class="card-des">
+						Electron(formerly known as Atom Shell) is an open-source software framework developed and
+						maintained by GitHub.
+					</div>
+					<div class="tags">
+						<div class="tag">Electron</div>
+						<div class="tag">Building</div>
+						<div class="tag">NodeJS</div>
+						<div class="tag">Application</div>
+						<div class="tag">Cross Platform</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<div></div>
+						<a href="https://medium.com/@1806290/cross-platform-desktop-apps-using-electron-ec59d2c93bfb"
+							target="_blank" class="card-link-item">
+							Read on Medium
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="../assets/img/projects/article2.png" class="card-img" alt="">
+				<div class="card-body">
+					<h3>Deploying Django Apps on Heroku</h3>
+					<div class="card-des">
+						Deploying Django apps on Heroku, Heroku is a PaaS that enables developers to build, run, and
+						operate applications entirely in the cloud.
+					</div>
+					<div class="tags">
+						<div class="tag">Deployment</div>
+						<div class="tag">Django</div>
+						<div class="tag">Heroku</div>
+						<div class="tag">Git</div>
+						<div class="tag">Develpment</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="card-links">
+						<div></div>
+						<a href="https://medium.com/@1806290/deploying-django-apps-on-heroku-99af9da7565e"
+							target="_blank" class="card-link-item">
+							Read on Medium
+							<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+								stroke-width="2" width="15" viewBox="0 0 20 20">
+								<path d="M5 12h14M12 5l7 7-7 7"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/094f8b38ab.js" crossorigin="anonymous"></script>
+	<script>
+		mixpanel.track("Projects Page");
+	</script>
+</body>
+
+</html>

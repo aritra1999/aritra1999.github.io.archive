@@ -1,0 +1,38 @@
+<div class="navbar big">
+    <div class="navbar-bg">
+        <ul class="list-inline">
+            <li class="left " style="border-top-left-radius: 6px;border-bottom-left-radius: 6px;"><a
+                    href='{% url "home" %}'>Home</a></li>
+            <li class="left "><a href='{% url "cv" %}'>Resume</a></li>
+            <li class="left " style="border-top-right-radius: 6px;border-bottom-right-radius: 6px;"><a href='{% url "youtube" %}'>Youtube</a></li>
+            <li class="left "><a href="{% url "projects" %}">Projects</a></li>
+            <li class="left "><a href='{% url "about" %}'>About Me</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="navbar small">
+    <div class="outer-menu">
+        <input class="checkbox-toggle" type="checkbox"/>
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href='{% url "home" %}'>Homes</a></li>
+                        <li><a href='{% url "cv" %}'>Resume</a></li>
+                        <li><a href='{% url "youtube" %}'>Youtube</a></li>
+                        <li><a href="{% url "projects" %}">Projects</a></li>
+                        <li><a href='{% url "about" %}'>About Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+

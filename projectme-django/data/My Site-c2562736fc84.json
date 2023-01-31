@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "my-site-267908",
+  "private_key_id": "c2562736fc84224447628be80e4e725a5714c9e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCcbAyGKrD23Swx\n98ImEgnF92hIeKBG5lFefJar4bV4HtxRCsHzY0BLgZEglY6sRcVlpo083SOM8toh\n36wjgfGIvzm8gz59xNr4XEG7mWXVHtOzVa8mzvxy3Go79C3gmYfmpQQ1W6Wrf8s+\nSq2BSPIkTngEjDOgoIVvQYg01ttc4vH35IkpYJW+gwrqCKsNy8WrNUyyp9EMrPzs\nztPaZbu4YHorM24EyPuHu0uj1EgUiu/S+/X5CgDdteF1EqSSSiKQxsQZ961lbdk2\n/pnobf2np7L/fZl79w3t+HWo6pq0+LETqQPNa67ULGpoULMV3LMLvfMUPdhZyhbG\njtfzFmPNAgMBAAECggEAEXigDXxHN8uMXChoLwhkvw/bPfz7KfAftoYD7j7PnhMU\nWJjzANRdIhHeu9z4ipVgbvIjZGDuz5dwdcgd2flxmOyC7mNaX4HVU1g6n1GK5jsD\nOkyfu53y5IFp/DhRx3xeiYx04+DQqE8lzFda+c3D/folvZxLR+2l+b9AD2bQKZei\nx1HtAVL5vPpKqALa3CF2vVGrPxQAWs6S0h45CffnqcOa3VOkZOhVhfT0xFyZsshp\nOinkSebH6W3ra7abnYijvn54Z6Wz5/KuRiBL70yGe6HhW3/9qIIHWE43iQPnZdBK\nXN8mAJVDHXZQz2IlDdi5G9BpkAgqU0KYNZhAh4ttAQKBgQDYocfZlARtKIw9qzTQ\nxvfGwxS1yG3gfJBeT9G8eXZB/TEKQVoC0p8tet9eoihu8yeaFrAB2X8kK1rpWdqm\nT+mjtyOLw7FVWEp6geGidsd3BoXDWAtVuF6bB8XNTcm4qfjszRKMt+D6hKpDPuQm\nGNeGfN/SHXJHkSNyDpyxDuc81QKBgQC42So+cCZVWjrNKjX0nJHd72MoYApljaGZ\nRfCrp/eIOLFfp1BEAeAjKd6g3CH72EqS6uk+sTOBwqiUKtDG/1xBDHr4VTjKSMfx\nkIMDxLq/a2beHpYJRbRunvBa4iSBdVOx6M7haRURGkzGcBr6qbkcLA05ShwPZ6yt\nYpiv/cknGQKBgEs58tJlihv15q1LlK2jSkulVr3BehZoayG1Chou+5fyumLbSsyM\nI2aBsquEGBJfMbNaiYg65OHEhG9gGoOCYJnPcPKJ5DzEyig8jgQCx0VX6H9rRZRg\nz8l6K4AdsR0FOUHR/M0M1X1pME7lughYvA8hsf+e5h5gEjT7SgJaMIZ5AoGASCya\n/vghL5BkhzklChacKdDPobMmPBK59zPEzfFuiCTCtPuKLpOg5XnysFJjfocsTwMk\nAVOFLfRIiFnTXO/WIJvz48S6wNj8IMjxLuaAmD8iUjYVFRe/ZLXwWTwVTur1u/CP\n3pl+HUhsk8qv7hGY8nQM0cKrBCTR2n016vmnsfkCgYEAnQ8/Jvgrp96qCAGxJ9Eq\nxG+lKh0GXEYw2YPRYFV2lFKC/Q9Q8I6ZxBccg1Kbnj7V/Q+mwae45BfR1Zf+vePh\nqlYGV5tzi2V/sSObvONlFoeOO/mpCPK/RByv/pXTWihUEpl32R8zdurhQ6+ETfi8\nYfQLXJEy1FtSXt9i9NZzokk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "aritra-mondal@my-site-267908.iam.gserviceaccount.com",
+  "client_id": "100201831678051711357",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aritra-mondal%40my-site-267908.iam.gserviceaccount.com"
+}

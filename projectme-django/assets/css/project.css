@@ -1,0 +1,113 @@
+.project {
+    width: 90%;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 80%;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+    line-height: 22px;
+    /*letter-spacing: 0.5px;*/
+    text-align: left !important;
+}
+
+.card-project {
+    padding: 0 !important;
+}
+
+.play {
+    position: absolute;
+    top: 26% !important;
+    left: 43% !important;
+    color: #ffff;
+    font-size: .6rem;
+}
+
+.thumbnail {
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.play:hover {
+
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    object-fit: cover;
+    height: 225px;
+}
+
+.title {
+    padding: 10px 20px;
+    font-size: .6rem;
+}
+
+.button-list {
+    display: grid;
+    grid-template-columns: 47% 6% 47%;
+}
+
+.projects-button {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 6px;
+    letter-spacing: .4px;
+    font-weight: normal;
+    font-size: 15px;
+    /*font-weight: bold;*/
+}
+
+.projects-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.gitorbehance {
+    border: 2px solid #24292e;
+}
+
+.gitorbehance:hover {
+    color: white;
+    background-color: #24292e;
+}
+
+.demo {
+    border: 2px solid rgb(58, 90, 255);
+    color: rgb(58, 90, 255);
+}
+
+.demo:hover {
+    /*background-color: rgb(58, 90, 255);*/
+    background: linear-gradient(90deg, #0072ff 0%, #0b71ff 100%);
+    color: white;
+    border: none;
+}
+
+.projects-des {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card-list {
+        display: block;
+        max-width: 99%;
+    }
+}
